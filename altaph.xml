@@ -1,33 +1,26 @@
-<peticion xmlns:alt="https://hospedajes.pre-ses.mir.es/hospedajes-web/ws/v1/comunicacion/altaReservaHospedaje">
+<alt:peticion xmlns:alt="http://www.neg.hospedajes.mir.es/altaParteHospedaje">
     <solicitud>
+        <codigoEstablecimiento>0000000016</codigoEstablecimiento>
         <comunicacion>
-            <establecimiento>
-                <codigo>0000000013</codigo>
-                <datosEstablecimiento>
-                    <tipo>APART</tipo>
-                    <nombre>ca</nombre>
-                    <direccion>mi casa</direccion>
-                </datosEstablecimiento>
-            </establecimiento>
             <contrato>
-                <referencia>string</referencia>  
-                <fechaContrato>2025-09-29</fechaContrato>
-                <fechaEntrada>2025-09-19T01:18:33</fechaEntrada>
-                <fechaSalida>2025-09-21T19:27:14+02:00</fechaSalida>
+                <referencia>string</referencia>
+                <fechaContrato>2022-09-29</fechaContrato>
+                <fechaEntrada>2022-09-19T01:18:33</fechaEntrada>
+                <fechaSalida>2022-09-21T19:27:14+02:00</fechaSalida>
                 <numPersonas>2</numPersonas>
                 <numHabitaciones>1</numHabitaciones>
                 <internet>false</internet>
                 <pago>
                     <tipoPago>EFECT</tipoPago>
-                    <fechaPago>2025-09-29</fechaPago>
+                    <fechaPago>2022-09-29</fechaPago>
                 </pago>
             </contrato>
             <persona>
                 <rol>VI</rol>
-                <nombre>Juan</nombre>
                 <apellido1>García</apellido1>
                 <apellido2>García</apellido2>
-                <tipoDocumento>NIFº</tipoDocumento>
+                <tipoDocumento>
+                    NIFº</tipoDocumento>
                 <numeroDocumento>000000000T</numeroDocumento>
                 <soporteDocumento>999999999</soporteDocumento>
                 <fechaNacimiento>1999-01-01</fechaNacimiento>
@@ -64,4 +57,4 @@
             </persona>
         </comunicacion>
     </solicitud>
-</peticion>
+</alt:peticion>

@@ -1,25 +1,18 @@
-<peticion xmlns:alt="https://hospedajes.pre-ses.mir.es/hospedajes-web/ws/v1/comunicacion/altaReservaHospedaje">
+<alt:peticion xmlns:alt="http://www.neg.hospedajes.mir.es/altaParteHospedaje">
     <solicitud>
+        <codigoEstablecimiento>0000033126</codigoEstablecimiento>
         <comunicacion>
-            <establecimiento>
-                <codigo>0000000013</codigo>
-                <datosEstablecimiento>
-                    <tipo>APART</tipo>
-                    <nombre>ca</nombre>
-                    <direccion>mi casa</direccion>
-                </datosEstablecimiento>
-            </establecimiento>
             <contrato>
-                <referencia>string</referencia>  
-                <fechaContrato>2025-09-29</fechaContrato>
-                <fechaEntrada>2025-09-19T01:18:33</fechaEntrada>
-                <fechaSalida>2025-09-21T19:27:14+02:00</fechaSalida>
+                <referencia>BOOK2024001</referencia>
+                <fechaContrato>2026-09-29</fechaContrato>
+                <fechaEntrada>2026-09-19T01:18:33+00:00</fechaEntrada>
+                <fechaSalida>2026-09-21T19:27:14+02:00</fechaSalida>
                 <numPersonas>2</numPersonas>
                 <numHabitaciones>1</numHabitaciones>
                 <internet>false</internet>
                 <pago>
                     <tipoPago>EFECT</tipoPago>
-                    <fechaPago>2025-09-29</fechaPago>
+                    <fechaPago>2026-09-29</fechaPago>
                 </pago>
             </contrato>
             <persona>
@@ -27,41 +20,40 @@
                 <nombre>Juan</nombre>
                 <apellido1>García</apellido1>
                 <apellido2>García</apellido2>
-                <tipoDocumento>NIFº</tipoDocumento>
+                <tipoDocumento>D</tipoDocumento>
                 <numeroDocumento>000000000T</numeroDocumento>
                 <soporteDocumento>999999999</soporteDocumento>
                 <fechaNacimiento>1999-01-01</fechaNacimiento>
                 <nacionalidad>ESP</nacionalidad>
-                <sexo>H</sexo>
+                <sexo>N</sexo>
                 <direccion>
-                    <direccion>C/Serrano 127</direccion>
-                    <direccionComplementaria>Portal A. 2ºB</direccionComplementaria>
-                    <codigoMunicipio>28079</codigoMunicipio>
+                    <direccion>123 Coast Avenue</direccion>
+                    <codigoMunicipio>00000</codigoMunicipio>
                     <codigoPostal>28001</codigoPostal>
                     <pais>ESP</pais>
                 </direccion>
                 <telefono>666666666</telefono>
-                <correo>juangarcia@correo.es</correo>
             </persona>
             <persona>
                 <rol>VI</rol>
                 <nombre>Pedro</nombre>
                 <apellido1>García</apellido1>
                 <apellido2>Fernández</apellido2>
+                <tipoDocumento>D</tipoDocumento>
+                <numeroDocumento>N/A</numeroDocumento>
+                <soporteDocumento>999999999</soporteDocumento>
                 <fechaNacimiento>2018-01-01</fechaNacimiento>
                 <nacionalidad>ESP</nacionalidad>
-                <sexo>H</sexo>
+                <sexo>N</sexo>
                 <direccion>
-                    <direccion>C/Serrano 127</direccion>
-                    <direccionComplementaria>Portal A. 2ºB</direccionComplementaria>
-                    <codigoMunicipio>28079</codigoMunicipio>
+                    <direccion>123 Coast Avenue</direccion>
+                    <codigoMunicipio>00000</codigoMunicipio>
                     <codigoPostal>28001</codigoPostal>
                     <pais>ESP</pais>
                 </direccion>
                 <telefono>666666666</telefono>
-                <correo>juangarcia@correo.es</correo>
                 <parentesco>HJ</parentesco>
             </persona>
         </comunicacion>
     </solicitud>
-</peticion>
+</alt:peticion>
