@@ -1,8 +1,8 @@
-<peticion xmlns:alt="https://hospedajes.pre-ses.mir.es/hospedajes-web/ws/v1/comunicacion/altaReservaHospedaje">
+<alt:peticion xmlns:alt="https://hospedajes.pre-ses.mir.es/hospedajes-web/ws/v1/comunicacion/altaReservaHospedaje">
     <solicitud>
         <comunicacion>
             <establecimiento>
-                <codigo>0000000013</codigo>
+                <codigo>0000000012</codigo>
                 <datosEstablecimiento>
                     <tipo>APART</tipo>
                     <nombre>ca</nombre>
@@ -64,4 +64,4 @@
             </persona>
         </comunicacion>
     </solicitud>
-</peticion>
+</alt:peticion>
